@@ -5,6 +5,7 @@ Purpose is to create data sets using raw GA4 data in Google Big Query and visual
 * Data source is [public GA4 Website dataset in Big Query](https://developers.google.com/analytics/bigquery/web-ecommerce-demo-dataset)
 * Google Big Query
 * Looker
+* Power BI
 
 Metrics
 * Sessions
