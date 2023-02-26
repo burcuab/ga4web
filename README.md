@@ -10,7 +10,7 @@ Metrics to visualize
 * Sessions
 * Transactions
 * Conversion Rate
-* 
+
 Dimensions
 * Landing Page
 * Device Category
@@ -20,11 +20,9 @@ Dimensions
 * Browser Version
 * Source, medium
 
-
-
 ## Dataset preparation in Google Big Query
 
-* Create session level table 
+* Create session level table: [SQL to run in BQ](session.sql) 
 * Create page level table 
 * Create reporting table for overall KPIs 
 
