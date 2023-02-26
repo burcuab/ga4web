@@ -11,9 +11,11 @@ Metrics
 * Sessions
 * Transactions
 * Conversion Rate
+* Pageviews
 
 Dimensions
 * Landing Page
+* Page URL/Title/Paths
 * Device Category
 * Operating System
 * Operating System Version
