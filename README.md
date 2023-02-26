@@ -23,8 +23,6 @@ Dimensions
 ## Dataset preparation in Google Big Query
 
 * Create session level table: [SQL to run in BQ](session.sql) 
-* Create page level table 
-* Create reporting table for overall KPIs 
-
-
-
+* Create page level table: [SQL to run in BQ](pageview.sql) 
+* Create reporting table for overall KPIs: [SQL to run in BQ](report_overall.sql) 
+* Create reporting table for pageview level KPIs: [SQL to run in BQ](report_pageview.sql) 
