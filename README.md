@@ -41,4 +41,4 @@ Dimensions
 
 ## Visualizaton in Power BI
 
-Coming soon
+to be added
