@@ -1,3 +1,5 @@
+CREATE TABLE `burcuproject.ga4websample.session` AS (
+
 SELECT 
   user_pseudo_id,
   concat(user_pseudo_id,(select value.int_value from unnest(event_params) where key = 'ga_session_id')) as sessionid,
@@ -16,3 +18,4 @@ SELECT
 FROM `bigquery-public-data.ga4_obfuscated_sample_ecommerce.events_20*` 
 where PARSE_DATE('%y%m%d', _TABLE_SUFFIX) between '2020-11-01' and '2021-01-31'
 group by 1,2
+)

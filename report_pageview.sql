@@ -1,3 +1,4 @@
+CREATE TABLE `burcuproject.ga4websample.report_pageview` AS (
 SELECT  p.date,
         s.device_category,
         p.entrance,
@@ -11,3 +12,4 @@ SELECT  p.date,
 FROM `burcuproject.ga4websample.pageview` p 
 join `burcuproject.ga4websample.session` s on s.sessionid=p.sessionid and p.date=s.date 
 group by 1,2,3,4,5,6,7,8
+)
