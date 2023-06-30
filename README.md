@@ -1,6 +1,6 @@
 # GA4 Web - Data preparation and visualization
 
-Purpose is to create data sets using raw GA4 data in Google Big Query and visualize data in Looker and Power BI.
+Purpose is to create data sets using raw GA4 data in Google Big Query and visualize data in Looker.
 
 * Data source is [public GA4 Website dataset in Big Query](https://developers.google.com/analytics/bigquery/web-ecommerce-demo-dataset)
 * Google Big Query
